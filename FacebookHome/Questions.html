@@ -1,0 +1,244 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Facebook Help Centre</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="Content/bootstrap.min.css" rel="stylesheet">
+    <link href="Content/custom.css" rel="stylesheet">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
+    <link href="Content/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="Scripts/themes/fontawesome-stars.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="header clearfix">
+            <nav class="navbar navbar-fixed-top navbar-dark bg-inverse">
+                <a class="navbar-brand" href="#">Facebook Help</a>
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Questions <span class="sr-only">(current)</span></a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-3">
+                <p><i class="fa fa-home"></i>Help Home</p>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Search for...">
+                    <span class="input-group-btn">
+                        <button class="btn btn-default" type="button">Search</button>
+                    </span>
+                </div>
+            </div>
+            <br /><br />
+        </div>
+
+        <div class="row">
+
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar navbar-sticky-top list-group">
+                    <li class="list-group-item" id="loginandpassword"><a href="#">Login and password</a><i class="fa fa-chevron-right"></i></li>
+                    <li class="list-group-item" id="gettingstarted"><a href="#">Getting Started</a></li>
+                    <li class="list-group-item" id="manageyouraccount"><a href="#">Manage Your Account</a></li>
+                    <li class="list-group-item" id="privacy"><a href="#">Privacy</a></li>
+                    <li class="list-group-item" id="security"><a href="#">Security</a></li>
+
+                </ul>
+            </div>
+
+            <div class="col-sm-6 col-sm-offset-1">
+                <div class="panel">
+                    <div class="panel-body" id="answers">
+
+                        <ul class="list-group" id="passwordQ" style="display:none">
+                            <li class="list-group-item"><a href="#">How do I change my password?</a></li>
+                            <li class="help-answer-item" style="display:none"><p>Changed Text</p>
+                            
+                                <p> Rate this answer: </p>
+                                <select id="rating">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+
+                            </li>
+                            <li class="list-group-item"><a href="#">How do I sign up?</a></li>
+                            <li class="help-answer-item" style="display:none"><p>More Text</p>
+                            
+                            </li>
+                        </ul>
+
+                        <ul class="list-group" id="gettingStartedQ" style="display:none">
+                            <li class="list-group-item"><a href="#">How do I get Started</a></li>
+                            <li class="help-answer-item" style="display:none">
+                                <p>Text</p>
+
+                                <p> Rate this answer: </p>
+                                <select id="rating">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+
+                            </li>
+                            <li class="list-group-item"><a href="#">How do I sign up?</a></li>
+                            <li class="help-answer-item" style="display:none">
+                                <p>More Text</p>
+
+                            </li>
+                        </ul>
+
+                        <ul class="list-group" id="manageyouraccountQ" style="display:none">
+                            <li class="list-group-item"><a href="#">Manage my Account</a></li>
+                            <li class="help-answer-item" style="display:none">
+                                <p>Text</p>
+
+                                <p> Rate this answer: </p>
+                                <select id="rating">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+
+                            </li>
+                        </ul>
+
+                        <ul class="list-group" id="privacyQ" style="display:none">
+                            <li class="list-group-item"><a href="#">Privacy</a></li>
+                            <li class="help-answer-item" style="display:none">
+                                <p>Text</p>
+
+                                <p> Rate this answer: </p>
+                                <select id="rating">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+
+                            </li>
+                        </ul>
+
+                        <ul class="list-group" id="securityQ" style="display:none">
+                            <li class="list-group-item"><a href="#">Security</a></li>
+                            <li class="help-answer-item" style="display:none">
+                                <p>Text</p>
+
+                                <p> Rate this answer: </p>
+                                <select id="rating">
+                                    <option value="1">1</option>
+                                    <option value="2">2</option>
+                                    <option value="3">3</option>
+                                    <option value="4">4</option>
+                                    <option value="5">5</option>
+                                </select>
+                            </li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <footer>
+            <p style="text-align:center"><br /><br /><i class="fa fa-copyright"></i>Copyright 2016</p>
+        </footer>
+    </div><!-- /.container -->
+    <!---<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>-->
+    <script src="Scripts/jquery-2.0.0.min.js"></script>
+    <!--- <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script> -->
+    <script src="Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/jquery.barrating.min.js"></script>
+
+    <script type="text/javascript">
+        $(function () {
+            $('#rating').barrating({
+                theme: 'fontawesome-stars'
+            });
+        });
+    </script>
+
+    <script>
+        $(".list-group-item").click(function()
+        {
+            $(this).next(".help-answer-item").toggle('fast');
+
+            return false;
+        })
+
+    </script>
+
+    <script>
+
+        $("#loginandpassword").click(function () {
+            $("#passwordQ").nextAll(".list-group").css("display", "none");
+
+            $("#passwordQ").toggle("fast");
+        })
+
+        $("#gettingstarted").click(function () {
+
+            $("#gettingStartedQ").prevAll(".list-group").css("display", "none");
+            $("#gettingStartedQ").nextAll(".list-group").css("display", "none");
+
+            $("#gettingStartedQ").toggle("fast");
+        })
+
+        $("#manageyouraccount").click(function () {
+
+            $("#manageyouraccountQ").prevAll(".list-group").css("display", "none");
+            $("#manageyouraccountQ").nextAll(".list-group").css("display", "none");
+
+            $("#manageyouraccountQ").toggle("fast");
+        })
+
+        $("#privacy").click(function () {
+
+            $("#privacyQ").prevAll(".list-group").css("display", "none");
+            $("#privacyQ").nextAll(".list-group").css("display", "none");
+
+            $("#privacyQ").toggle("fast");
+
+
+        })
+
+        $("#security").click(function () {
+
+            $("#securityQ").prevAll(".list-group").css("display", "none");
+            $("#securityQ").nextAll(".list-group").css("display", "none");
+
+            $("#securityQ").toggle("fast");
+        })
+    </script>
+</body>
+</html>
