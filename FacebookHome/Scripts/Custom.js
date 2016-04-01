@@ -30,8 +30,7 @@ function showQuestions() {
                 $(this).children().nextUntil(".i").addClass("fa-chevron-right");
             }
         })
-
-        
+      
         $("#gettingstarted").children().nextUntil(".i").toggleClass("fa fa-chevron-right fa fa-chevron-down");
         $("#gettingStartedQ").prevAll(".list-group").css("display", "none");
         $("#gettingStartedQ").nextAll(".list-group").css("display", "none");
@@ -64,17 +63,14 @@ function showQuestions() {
             }
         })
         
-
         $("#privacy").children().nextUntil(".i").toggleClass("fa fa-chevron-right fa fa-chevron-down");
         $("#privacyQ").prevAll(".list-group").css("display", "none");
         $("#privacyQ").nextAll(".list-group").css("display", "none");
         $("#privacyQ").toggle("fast");
 
-
     })
 
     $("#security").click(function () {
-
 
         $("#security").prevAll(".list-group-item").andSelf().each(function () {
             console.log($(this).attr('id'));
