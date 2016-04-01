@@ -1,6 +1,0 @@
-C:\Users\John\Documents\Visual Studio 2013\Projects\FacebookHome\FacebookHome\bin\FacebookHome.dll.config
-C:\Users\John\Documents\Visual Studio 2013\Projects\FacebookHome\FacebookHome\bin\FacebookHome.dll
-C:\Users\John\Documents\Visual Studio 2013\Projects\FacebookHome\FacebookHome\bin\FacebookHome.pdb
-C:\Users\John\Documents\Visual Studio 2013\Projects\FacebookHome\FacebookHome\obj\Debug\FacebookHome.csprojResolveAssemblyReference.cache
-C:\Users\John\Documents\Visual Studio 2013\Projects\FacebookHome\FacebookHome\obj\Debug\FacebookHome.dll
-C:\Users\John\Documents\Visual Studio 2013\Projects\FacebookHome\FacebookHome\obj\Debug\FacebookHome.pdb
