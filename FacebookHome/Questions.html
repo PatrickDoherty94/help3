@@ -18,6 +18,7 @@
     <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
     <link href="Content/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="Scripts/themes/fontawesome-stars.css">
+    <script src="Scripts/Custom.js"></script>
 
 </head>
 
@@ -58,11 +59,11 @@
 
             <div class="col-sm-3 col-md-2 sidebar">
                 <ul class="nav nav-sidebar navbar-sticky-top list-group">
-                    <li class="list-group-item" id="loginandpassword"><a href="#">Login and password</a><i class="fa fa-chevron-right"></i></li>
-                    <li class="list-group-item" id="gettingstarted"><a href="#">Getting Started</a></li>
-                    <li class="list-group-item" id="manageyouraccount"><a href="#">Manage Your Account</a></li>
-                    <li class="list-group-item" id="privacy"><a href="#">Privacy</a></li>
-                    <li class="list-group-item" id="security"><a href="#">Security</a></li>
+                    <li class="list-group-item" id="loginandpassword"><a href="#">Login & Password</a><i class="fa fa-chevron-right" style="float:right"></i></li>
+                    <li class="list-group-item" id="gettingstarted"><a href="#">Getting Started</a><i class="fa fa-chevron-right" style="float:right"></i></li>
+                    <li class="list-group-item" id="manageyouraccount"><a href="#">Manage Your Account</a><i class="fa fa-chevron-right" style="float:right"></i></li>
+                    <li class="list-group-item" id="privacy"><a href="#">Privacy</a><i class="fa fa-chevron-right" style="float:right"></i></li>
+                    <li class="list-group-item" id="security"><a href="#">Security</a><i class="fa fa-chevron-right" style="float:right"></i></li>
 
                 </ul>
             </div>
@@ -72,7 +73,7 @@
                     <div class="panel-body" id="answers">
 
                         <ul class="list-group" id="passwordQ" style="display:none">
-                            <li class="list-group-item"><a href="#">How do I change my password</a></li>
+                            <li class="list-group-item"><a href="#">How do I change my password?</a></li>
                             <li class="help-answer-item" style="display:none"><p>Password</p>
                             
                                 <p> Rate this answer: </p>
@@ -106,7 +107,7 @@
                                 </select>
 
                             </li>
-                            <li class="list-group-item"><a href="#">How do I sign up</a></li>
+                            <li class="list-group-item"><a href="#">How do I sign up?</a></li>
                             <li class="help-answer-item" style="display:none">
                                 <p>More Text</p>
 
@@ -196,49 +197,8 @@
             return false;
         })
 
-    </script>
+        showQuestions();
 
-    <script>
-
-        $("#loginandpassword").click(function () {
-            $("#passwordQ").nextAll(".list-group").css("display", "none");
-
-            $("#passwordQ").toggle("fast");
-        })
-
-        $("#gettingstarted").click(function () {
-
-            $("#gettingStartedQ").prevAll(".list-group").css("display", "none");
-            $("#gettingStartedQ").nextAll(".list-group").css("display", "none");
-
-            $("#gettingStartedQ").toggle("fast");
-        })
-
-        $("#manageyouraccount").click(function () {
-
-            $("#manageyouraccountQ").prevAll(".list-group").css("display", "none");
-            $("#manageyouraccountQ").nextAll(".list-group").css("display", "none");
-
-            $("#manageyouraccountQ").toggle("fast");
-        })
-
-        $("#privacy").click(function () {
-
-            $("#privacyQ").prevAll(".list-group").css("display", "none");
-            $("#privacyQ").nextAll(".list-group").css("display", "none");
-
-            $("#privacyQ").toggle("fast");
-
-
-        })
-
-        $("#security").click(function () {
-
-            $("#securityQ").prevAll(".list-group").css("display", "none");
-            $("#securityQ").nextAll(".list-group").css("display", "none");
-
-            $("#securityQ").toggle("fast");
-        })
     </script>
 </body>
 </html>
